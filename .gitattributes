@@ -1,0 +1,4 @@
+* text=auto
+deploy text eol=lf
+smoke-tests text eol=lf
+*.sh text eol=lf
