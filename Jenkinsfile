@@ -9,6 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
+                sh 'chmod +x ./deploy ./smoke-tests'
                 sh 'ls -la'
             }
         }
